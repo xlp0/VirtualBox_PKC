@@ -1,0 +1,12 @@
+# Ignore the files that might be in conflict with data content in https://github.com/benkoo/XLPWikiMountPoint
+.DS_Store
+LocalSettings.php
+docker-compose.yml
+mountPoint/*
+# backup/*
+shudownDockersAndRemoveImages.sh
+backup/MediaFiles/*
+XLPLATEST.xml
+.vagrant/*
+vagrant_data/mountPoint/*
+vagrant_data/backup/*
