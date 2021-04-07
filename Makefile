@@ -1,5 +1,5 @@
 # More detailed instructions can be found: https://devconnected.com/how-to-delete-file-on-git/
-powerup:
+init:
 	./powerup.sh
 
 shutdown:
