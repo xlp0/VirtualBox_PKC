@@ -84,8 +84,11 @@ information regarding how to download and launch a VirtualBox Ubuntu instance.
 
 You may trigger this sequence of actions using the following command:
 ```
-vagrant up
+./powerup.sh
 ```
+
+After this instruction is fully completed, you should be anbel to go to your browser and type: http://localhost:9352 to access your MediaWiki service.
+
 
 Note: Windows users might witness some hickups after Vagrant is installed. When running vagrant up, it might provide a 
 message saying that your Hyper-Visor or VT-x options is disabled. You might need to go to BIOS or UEFI to turn it on.
