@@ -1,4 +1,10 @@
 # More detailed instructions can be found: https://devconnected.com/how-to-delete-file-on-git/
+powerup:
+	./powerup.sh
+
+shutdown:
+	vagrant halt
+
 removeMediaFiles: 
 	git filter-branch -f --prune-empty --index-filter "git rm -r --cached --ignore-unmatch ./backup/MediaFiles/*" HEAD
 	git push origin --mirror --force
