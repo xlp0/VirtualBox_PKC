@@ -1,5 +1,6 @@
 # Ignore the files that might be in conflict with data content in https://github.com/benkoo/XLPWikiMountPoint
 .DS_Store
+.vscode/
 LocalSettings.php
 docker-compose.yml
 mountPoint/*

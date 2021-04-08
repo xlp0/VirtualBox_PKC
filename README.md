@@ -59,13 +59,15 @@ After Git has been installed, you should read the following section to avoid End
 
 ### Working from this Project Directory
 
-After Git has been installed on your local system, please go to a command line interface (CLI), and use Git 
-to download the this project. To a local directory.
+After Git has been installed on your local system, please go to a Command Line Interface (CLI), and use Git to download the this project. To a local directory.
 
-Note: On Mac, a typical CLI would be the Terminal.app. On Windows 10, I would recommend you to reboot your machine at this
-time before continuing this list of instructions. Vagrant configuration might not take place after Git is installed. 
-Therefore, one could use other command line app, such as CMD or search for the PowerShell application as your command line
-interface. On Linux platforms, use the proper command line tool and type the following command: 
+Note: 
+
+On Mac, a typical CLI would be the Terminal.app. 
+
+On Windows 10, we recommend you to use Git Bash as your CLI interface, the main reason is that Bash is required for the script to work. The other implementations of CLI, such as Git CMD will not work, since it will not execute Bash Script as the way this project provides it.
+
+On Linux platforms, use the proper command line tool and type the following command: 
 ```
 git clone https://github.com/xlp0/VirtualBox_PKC.git
 ```
